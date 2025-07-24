@@ -10,7 +10,7 @@ body {
 }
 
 .social-media {
-    background-color: rgba(255, 60, 0, 0.637);
+    background-color: rgba(1, 253, 253, 0.637);
     width: 1347px;
     margin-left: 0px;
     height: 40px;
@@ -99,7 +99,8 @@ body {
 
 .logo img {
     margin-left: 20px;
-    width: 150px;
+    margin-top: 15px;
+    width: 120px;
     background-color: white;
 }
 
@@ -164,9 +165,9 @@ nav span i {
 }
 
 .container1 {
-    background-color: black;
+    background-color: rgb(69, 128, 218);
     text-align: center;
-    border-bottom-color: #d69d00;
+    border-bottom-color: #00ff15;
     border-bottom-style: groove;
     border-bottom-width: 5px;
     z-index: 10;
@@ -203,7 +204,7 @@ nav span i {
 
 .active,
 .container1 ul li:hover {
-    background-color: burlywood;
+    background-color: rgb(0, 0, 0);
     border-radius: 3px;
 }
 
@@ -283,7 +284,7 @@ nav ul li a i {
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
-    width: 100%;
+    width: 90%;
     /* Lower than the menu */
 }
 
@@ -292,7 +293,7 @@ nav ul li a i {
 
 .slideshow-container {
     position: relative;
-    width: 100%
+    width: 90%
 }
 
 
@@ -449,31 +450,31 @@ nav ul li a i {
 /* Latest News slider */
 
 .news-container {
-    width: 30%;
+    width: 100%;
     position: absolute;
-    right: 20px;
-    top: 0;
+    right: 1px;
     background-color: #f5f5f5;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     outline-color: #ffcc00;
 }
 
 .catetab {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
     color: #333;
     text-align: left;
     margin-bottom: 10px;
     background-color: #ffcc00;
     /* Example color */
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .newscontent {
     height: 300px;
+    width: 400px;
     /* Adjust as needed */
     overflow: hidden;
     position: relative;
@@ -509,6 +510,12 @@ nav ul li a i {
     border-radius: 5px;
 }
 
+.newsticker li:hover {
+    background-color: rgb(9, 255, 0);
+    cursor: pointer;
+    stop-color: greenyellow;
+}
+
 .newsticker li a {
     text-decoration: none;
     color: #444;
@@ -537,11 +544,11 @@ nav ul li a i {
 /*-------------------------------this is the welcome section ------------------------*/
 
 .content {
-    max-width: 50%;
+    max-width: 58%;
     border: 5px solid green;
     background: #f7da8b;
     margin: 10%;
-    margin-left: 2%;
+    margin-left: 20%;
     margin-top: 3pc;
     margin-bottom: 20px;
     display: block;
@@ -712,7 +719,7 @@ footer p {
 
 .aim {
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #020096), url(images/comp2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #020096), url(images/bib.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -731,7 +738,7 @@ footer p {
 /* ----------------------------for designing the e-citizen page------------------------------------------------*/
 
 .citizen {
-    background-image: linear-gradient(black, rgba(0, 161, 0, 0.5)), url(images/comp1.jpg);
+    background-image: linear-gradient(black, rgba(0, 161, 0, 0.5)), url(images/bible.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -761,7 +768,7 @@ footer p {
 /* ----------------------------for designing the computer repair page------------------------------------------*/
 
 .com-repair {
-    background-image: linear-gradient(black, rgba(0, 161, 0, 0.5)), url(images/comp1.jpg);
+    background-image: linear-gradient(black, rgba(0, 161, 0, 0.5)), url(images/bible2.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -790,7 +797,7 @@ footer p {
 /* ----------------------------for designing the admission page------------------------------------------------*/
 
 .admission {
-    background-image: linear-gradient(black, rgba(0, 161, 0, 0.5)), url(images/comp1.jpg);
+    background-image: linear-gradient(black, rgba(0, 161, 0, 0.5)), url(images/bibleb1.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -811,7 +818,7 @@ footer p {
 /* ----------------------------for designing the ntsa page------------------------------*/
 
 .ntsa {
-    background-image: linear-gradient(black, rgba(0, 161, 0, 0.5)), url(images/comp1.jpg);
+    background-image: linear-gradient(black, rgba(0, 161, 0, 0.5)), url(images/book.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -841,7 +848,7 @@ footer p {
 /* ----------------------------for designing the computer application  page---------------------------------------*/
 
 .com-application {
-    background-image: linear-gradient(#000000, rgba(0, 0, 0, 0.5)), url(images/comp2.jpg);
+    background-image: linear-gradient(#000000, rgba(0, 0, 0, 0.5)), url(images/bib.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -868,7 +875,7 @@ footer p {
 /* ----------------------------for designing the kra  page---------------------------------------*/
 
 .kra {
-    background-image: linear-gradient(#ffffff, rgba(100, 3, 0, 0.5)), url(images/comp2.jpg);
+    background-image: linear-gradient(#ffffff, rgba(100, 3, 0, 0.5)), url(images/bib.jpeg);
     margin-top: 20px;
     background-position: center;
     background-size: cover;
@@ -911,7 +918,7 @@ footer p {
 /* ----------------------------for designing the mission page---------------------------------------*/
 
 .mission {
-    background-image: linear-gradient(#000000, rgba(0, 100, 0, 0.5)), url(images/comp2.jpg);
+    background-image: linear-gradient(#000000, rgba(0, 100, 0, 0.5)), url(images/bible.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -933,10 +940,10 @@ footer p {
 }
 
 
-/* ----------------------------for designing the photography page---------------------------------------*/
+/* ----------------------------for designing the GALLERY page---------------------------------------*/
 
 .photo {
-    background-image: linear-gradient(#000000, rgba(0, 26, 173, 0.5)), url(images/comp2.jpg);
+    background-image: linear-gradient(#000000, rgba(0, 26, 173, 0.5)), url(images/bible.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -974,7 +981,7 @@ footer p {
 /* ----------------------------for designing the location page---------------------------------------*/
 
 .location {
-    background-image: linear-gradient(#000000, rgba(0, 26, 173, 0.5)), url(images/comp2.jpg);
+    background-image: linear-gradient(#000000, rgba(0, 26, 173, 0.5)), url(images/bib.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -1008,7 +1015,7 @@ footer p {
 /* ----------------------------for designing the other online services page---------------------------------------*/
 
 .online {
-    background-image: linear-gradient(#000000, rgba(0, 26, 173, 0.5)), url(images/comp2.jpg);
+    background-image: linear-gradient(#000000, rgba(0, 26, 173, 0.5)), url(images/bible.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -1031,7 +1038,7 @@ footer p {
 /* ----------------------------for designing the event page---------------------------------------*/
 
 .event {
-    background-image: linear-gradient(#000000, rgba(0, 26, 173, 0.5)), url(images/comp2.jpg);
+    background-image: linear-gradient(#000000, rgba(0, 26, 173, 0.5)), url(images/book.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -1059,7 +1066,7 @@ footer p {
 /* ----------------------------for designing the login page---------------------------------------*/
 
 .login-pg {
-    background-image: linear-gradient(rgba(4, 8, 65, 0.5), rgba(42, 80, 6, 0.616)), url(images/comp2.jpg);
+    background-image: linear-gradient(rgba(4, 8, 65, 0.5), rgba(42, 80, 6, 0.616)), url(images/bible2.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -1169,7 +1176,7 @@ form p a {
 /* ----------------------------for designing the vision page---------------------------------------*/
 
 .vision {
-    background-image: linear-gradient(rgba(4, 8, 65, 0.5), rgba(42, 80, 6, 0.616)), url(images/comp2.jpg);
+    background-image: linear-gradient(rgba(4, 8, 65, 0.5), rgba(42, 80, 6, 0.616)), url(images/bibleb1.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -1193,7 +1200,7 @@ form p a {
 /* ----------------------------for designing the contact page---------------------------------------*/
 
 .contact-container {
-    background-image: linear-gradient(rgba(17, 12, 12, 0.5), black), url(images/comp2.jpg);
+    background-image: linear-gradient(rgba(17, 12, 12, 0.5), black), url(images/bib.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -1259,7 +1266,7 @@ form p a {
 }
 
 
-/* ----------------------------for designing the patners page---------------------------------------*/
+/* ----------------------------for designing the LEADERSHIP page---------------------------------------*/
 
 .partners-container {
     background-color: white;
@@ -1267,7 +1274,7 @@ form p a {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-image: linear-gradient(rgba(17, 12, 12, 0.5), black), url(images/comp2.jpg);
+    background-image: linear-gradient(rgba(17, 12, 12, 0.5), black), url(images/bible.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -1319,7 +1326,7 @@ form p a {
 /* ----------------------------for designing the complain page---------------------------------------*/
 
 .complain {
-    background-image: linear-gradient(rgba(17, 12, 12, 0.5), black), url(images/comp2.jpg);
+    background-image: linear-gradient(rgba(17, 12, 12, 0.5), black), url(images/bible.jpeg);
     margin-top: 0;
     background-position: center;
     background-size: cover;
@@ -1445,3 +1452,5 @@ form p a {
     background-color: #f00606;
     /* Darker background on hover */
 }
+
+*/
